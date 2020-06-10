@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="341597" started-at="2020-06-10T16:28:53 IST" finished-at="2020-06-10T16:34:35 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="341597" started-at="2020-06-10T16:28:53 IST" finished-at="2020-06-10T16:34:35 IST">
+      <class name="newword1.gnucash">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:newword1.gnucash@646d64ab]" name="setUp" is-config="true" duration-ms="7211" started-at="2020-06-10T16:30:32 IST" finished-at="2020-06-10T16:30:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="sampleTest()[pri:0, instance:newword1.gnucash@646d64ab]" name="sampleTest" duration-ms="3688" started-at="2020-06-10T16:30:39 IST" finished-at="2020-06-10T16:30:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Default Currency> but was:<NEXT>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Default Currency> but was:<NEXT>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:82)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:87)
+at newword1.gnucash.sampleTest(gnucash.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:newword1.gnucash@646d64ab]" name="tearDown" is-config="true" duration-ms="1744" started-at="2020-06-10T16:30:43 IST" finished-at="2020-06-10T16:30:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- newword1.gnucash -->
+      <class name="newword1.Map">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:newword1.Map@1b68ddbd]" name="setUp" is-config="true" duration-ms="12625" started-at="2020-06-10T16:28:53 IST" finished-at="2020-06-10T16:29:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:newword1.Map@1b68ddbd]" name="sampleTest" duration-ms="84877" started-at="2020-06-10T16:29:06 IST" finished-at="2020-06-10T16:30:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:newword1.Map@1b68ddbd]" name="tearDown" is-config="true" duration-ms="1622" started-at="2020-06-10T16:30:31 IST" finished-at="2020-06-10T16:30:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- newword1.Map -->
+      <class name="newword1.wordnewpress">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:newword1.wordnewpress@59e5ddf]" name="setUp" is-config="true" duration-ms="7794" started-at="2020-06-10T16:30:45 IST" finished-at="2020-06-10T16:30:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Mycode()[pri:1, instance:newword1.wordnewpress@59e5ddf]" name="Mycode" duration-ms="147080" started-at="2020-06-10T16:30:53 IST" finished-at="2020-06-10T16:33:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mycode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:newword1.wordnewpress@59e5ddf]" name="tearDown" is-config="true" duration-ms="2743" started-at="2020-06-10T16:33:20 IST" finished-at="2020-06-10T16:33:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:newword1.wordnewpress@59e5ddf]" name="setUp" is-config="true" duration-ms="8753" started-at="2020-06-10T16:33:22 IST" finished-at="2020-06-10T16:33:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="sampleTest()[pri:2, instance:newword1.wordnewpress@59e5ddf]" name="sampleTest" duration-ms="61368" started-at="2020-06-10T16:33:31 IST" finished-at="2020-06-10T16:34:33 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'PRIMECANDIDS-PC', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: org.wordpress.android.ui.po..., appPackage: org.wordpress.android, automationName: UiAutomator1, databaseEnabled: false, desired: {appActivity: org.wordpress.android.ui.po..., appPackage: org.wordpress.android, automationName: UiAutomator1, deviceName: Mi A1, platformName: android, platformVersion: 9, udid: 33c041340704}, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 33c041340704, deviceScreenSize: 1080x1920, deviceUDID: 33c041340704, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 9, takesScreenshot: true, udid: 33c041340704, warnings: {}, webStorageEnabled: false}
+Session ID: 1ae6b033-1f39-40a6-87df-033c83597d9d
+*** Element info: {Using=id, value=org.wordpress.android:id/my_site_blog_posts_text_view}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'PRIMECANDIDS-PC', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: org.wordpress.android.ui.po..., appPackage: org.wordpress.android, automationName: UiAutomator1, databaseEnabled: false, desired: {appActivity: org.wordpress.android.ui.po..., appPackage: org.wordpress.android, automationName: UiAutomator1, deviceName: Mi A1, platformName: android, platformVersion: 9, udid: 33c041340704}, deviceManufacturer: Xiaomi, deviceModel: Mi A1, deviceName: 33c041340704, deviceScreenSize: 1080x1920, deviceUDID: 33c041340704, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: Android, platformVersion: 9, takesScreenshot: true, udid: 33c041340704, warnings: {}, webStorageEnabled: false}
+Session ID: 1ae6b033-1f39-40a6-87df-033c83597d9d
+*** Element info: {Using=id, value=org.wordpress.android:id/my_site_blog_posts_text_view}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at newword1.wordnewpress.sampleTest(wordnewpress.java:255)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:newword1.wordnewpress@59e5ddf]" name="tearDown" is-config="true" duration-ms="2008" started-at="2020-06-10T16:34:33 IST" finished-at="2020-06-10T16:34:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- newword1.wordnewpress -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
